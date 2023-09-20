@@ -275,3 +275,78 @@
         font-size: 30px;
     }
  }
+ @media (max-width: 428px){
+    .link_item {
+     font-size: 5px;
+    }
+    .logo {
+     height: 20px;
+     align-self: center;
+    }
+    .btnnav {
+     font-size: 8px;
+    }
+    .ulnav {
+     align-items: center;
+    }
+    .logos {
+     align-items: center;
+    }
+    .imss {
+     height: 150px;
+    }
+    .ims {
+     height: 80px;
+    }
+    .para {
+        font-size: 15px;
+    }
+    .base {
+        padding: 20px;
+    }
+    .campiprod {
+        height: 250px;
+    }
+    .bass2 {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .procesoimg {
+     height: 80px;
+    }
+    .mamawowtit {
+        font-size: 30px;
+    }
+    .contwow {
+     width: 100%;
+     gap: 12px;
+     justify-content: center;
+    }
+    .mamawowpara {
+     width: 400px;
+    }
+    .rese {
+     width: 400px;
+    }
+    .mamaswowre {
+     height:60px ;
+    }
+    .paramamaswow {
+     font-size: 11px;
+    }
+    .recetawow {
+     font-size: 12px;
+     width: 100%;
+     padding: 0px 20px;
+    }
+    .bass1 {
+     width: 100%;
+    }
+    .bass1head {
+     width: 100%;
+     }
+     .social {
+         font-size: 30px;
+     }
+  }
+ 
