@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+ }
+ .section1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+
+ }
+ .navv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .ulnav {
+    display: flex;
+    gap: 10px;
+ }
+ .logo {
+    display: flex;
+    height: 55px;
+    align-items: center;
+ }
+ 
+ .link_item {
+    display: flex;
+    text-align: center;
+    color: gray;
+    font-size: 17px;
+ }
+ .btnnav {
+    background-color: #ffcd1d;
+    border-radius: 20px;
+    padding: 2px 20px;
+    border: none;
+    color: white;
+    font-size: 15px;
+ }
+ .green {
+    color: #71a287;
+ }
+ .banner {
+    display: grid;
+    
+    align-items: center;
+    grid-template-columns: auto;
+ }
+ .banner1 {
+    display: grid;
+    justify-content: center;
+    background-color: #5fbc6f;
+    padding: 30px 0;
+    align-items: center;
+    width: 100%;
+    grid-template-columns: auto auto auto;
+ }
+ .ims {
+    height: 250px;
+ }
+ .imss {
+    height:400px ;
+ }
+ .base {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 200px;
+    width: 800px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    line-height: 2;
+    padding: 40px 40px;
+ }
+ .para {
+    color: rgb(156, 156, 156);
+ }
+ .mamawow{
+    color: #ffcd1d;
+ }
+ .bass {
+    display: flex;
+    justify-content: center;
+    background-color: #edfcfd;
+    padding: 40px;
+ }
+ .neg {
+    color: rgb(98, 98, 98);
+ }
+ .bass1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e2f9fb;
+    padding: 70px 0;
+    align-items: center;
+    gap: 40px;
+ }
+ .bass1head {
+    display: flex;
+    justify-content: center;
+ }
+ .recetawow {
+    display: flex;
+    line-height: 2;
+    font-size: 15px;
+    color: rgb(78, 78, 78);
+    width: 800px;
+    text-align: center;
+ }
+
+ .social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    background-color: #5fbc6f;
+    gap: 10px;
+ }
+ .yel {
+    color: white;
+ }
+ .bass2 {
+    background-color: #edfcfd;
+    display: flex;
+    align-items: center;
+    padding: 40px 40px;
+ }
+ .campiprod {
+    height: 300px;
+ }
+ .paracampi {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   text-align: justify;
+ }
+ .prodss {
+    color: rgb(74, 74, 74);
+ }
+ .bass3 {
+    background-color: #fbfded;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+ }
+ .procesoimg {
+    height: 200px;
+ }
+ .contwow {
+    display: flex;
+    gap: 100px;
+ }
+ .blog {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #edfcfd;
+    align-content: center;
+    align-items: center;
+    padding: 60px;
+ }
+ .rese {
+    display: flex;
+    background-color: white;
+    line-height: 2;
+    padding: 25px;
+    width: 800px;
+    border-radius: 5px;
+    align-items: center;
+    gap: 30px;
+ }
+ .mamawowtit {
+    color: #ffcd1d;
+    font-size: 40px;
+ }
+.mamawowpara {
+    width: 1000px;
+    text-align: center;
+}
+.light {
+    color: rgb(99, 99, 99);
+    padding-bottom: 20px;
+}
+.mamaswowre {
+    height: 100px;
+    max-width: 100px;
+}
+.paramamaswow {
+    text-align: justify;
+    color: rgb(77, 77, 77);
+    max-width: 700px;
+}
+.bc {
+    color: black;
+}
+.comunidad {
+    font-size: 20px;
+    border: none;
+    padding: 8px 20px;
+    background-color: #5fbc6f;
+    color: white;
+    border-radius: 5px;
+}
+.comunidad:hover {
+    background-color: #83c08d;
+    transition: all ease 500ms;
+}
+
+@media (max-width: 768px){
+   .link_item {
+    font-size: 13px;
+   }
+   .logo {
+    height: 30px;
+    align-self: center;
+   }
+   .btnnav {
+    font-size: 13px;
+   }
+   .ulnav {
+    align-items: center;
+   }
+   .logos {
+    align-items: center;
+   }
+   .imss {
+    height: 200px;
+   }
+   .ims {
+    height: 100px;
+   }
+   .procesoimg {
+    height: 120px;
+   }
+   .contwow {
+    width: 100%;
+    gap: 12px;
+    justify-content: center;
+   }
+   .mamawowpara {
+    width: 700px;
+   }
+   .rese {
+    width: 500px;
+   }
+   .mamaswowre {
+    height:70px ;
+   }
+   .paramamaswow {
+    font-size: 12px;
+   }
+   .recetawow {
+    font-size: 12px;
+    width: 100%;
+    padding: 0px 20px;
+   }
+   .bass1 {
+    width: 100%;
+   }
+   .bass1head {
+    width: 100%;
+    }
+    .social {
+        font-size: 30px;
+    }
+ }
